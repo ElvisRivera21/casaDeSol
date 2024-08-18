@@ -33,14 +33,21 @@ body {
 
 /*Top Image CSS */
 
-  .topimage img {
-      width: 100%;
-      /* Full-width image */
-      height: 20%;
-      opacity: 0.8;
-      display: block;
-      /* Removes any extra space below the image */
-  }
+ .topimage img {
+     width: 100%;
+     /* Full-width image */
+     height: 40vh;
+     /* Set height to 40% of the viewport height */
+     object-fit: cover;
+     /* Maintain aspect ratio and crop if necessary */
+     margin: 0;
+     /* Remove margins to make the image full width */
+     padding: 0;
+     /* Remove padding */
+     opacity: 0.8;
+     display: block;
+     /* Removes any extra space below the image */
+ }
 
   .topimagetext {
       position: absolute;
