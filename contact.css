@@ -88,3 +88,31 @@ body {
         font-size: 28px;
     }
 }
+
+/*Nav Bar */
+
+.navbar {
+    background-color: #e8bb18;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
