@@ -1,0 +1,49 @@
+.duocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-image: url('your-background-image-url.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* Adjust color for readability on the background */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    /* Text shadow for better readability */
+}
+
+.englishcontainer,
+.spanishcontainer {
+    width: 45%;
+    /* Adjust width to control how much space each language takes up */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for better text visibility */
+    border-radius: 10px;
+    /* Rounded corners for a softer look */
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .duocontainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .englishcontainer,
+    .spanishcontainer {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
