@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(23, 14, 1);
 }
 
 /*Nav Bar */
 
 .navbar {
-    background-color: #333;
+    background-color: #e8bb18;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     
     text-decoration: none;
@@ -51,11 +51,13 @@ body {
 
   .topimagetext {
       position: absolute;
+      color: #e8bb18;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 36px;
       font-weight: bold;
+      font-style:;
   }
 
 /*Landing Tiles*/
@@ -65,13 +67,13 @@ body {
     justify-content: space-around;
     /* Evenly space out the tiles */
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: rgb(23, 14, 1);
     
     /* Light background for the section */
 }
 
 .tile {
-    background-color: #fff;
+    background-color: rgb(23, 14, 1);
     width: 30%;
     /* Each tile takes up 30% of the container width */
     padding: 20px;
@@ -88,10 +90,11 @@ body {
 .tile h3 {
     margin-top: 0;
     font-size: 24px;
+    color:antiquewhite
 }
 
 .tile p {
-    color: #666;
+    color: antiquewhite;
 }
 
 .tile a {
