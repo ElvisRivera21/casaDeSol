@@ -124,3 +124,11 @@ body {
 }
 
 /*About CSS Styles*/
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
